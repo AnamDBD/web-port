@@ -51,7 +51,30 @@ section{
 }
 
 .box-style{
-    box-shadow: 10px 10px gray;
-    border: 10px;
+    box-shadow: 5px 5px 20px gray;
     border-radius: 10px;
+}
+
+.exprience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+}
+
+#full-st{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, Tomato);  
+    border-image-slice: 1; 
+}
+
+#wp-dev{
+    border-left: 7px gray;
+    border-image: linear-gradient(180deg, lightSalmon, Tomato );
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
